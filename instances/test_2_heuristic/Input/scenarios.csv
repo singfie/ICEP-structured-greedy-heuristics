@@ -1,0 +1,13 @@
+Scenario,Location,private_evac,Demand,Probability
+Scenario 1,Evac Area 1,50,400,0.5
+Scenario 1,Evac Area 3,80,500,0.5
+Scenario 1,Evac Area 2,0,0,0.5
+Scenario 1,Evac Area 4,0,0,0.5
+Scenario 2,Evac Area 4,100,300,0.15
+Scenario 2,Evac Area 1,0,0,0.15
+Scenario 2,Evac Area 3,0,0,0.15
+Scenario 2,Evac Area 2,30,200,0.15
+Scenario 3,Evac Area 1,0,0,0.35
+Scenario 3,Evac Area 2,0,0,0.35
+Scenario 3,Evac Area 3,20,150,0.35
+Scenario 3,Evac Area 4,0,0,0.35
