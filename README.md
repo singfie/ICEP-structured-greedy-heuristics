@@ -1,4 +1,4 @@
-# icep-structured-heuristics
+# ICEP Greedy Structured Heuristics
 Structural heuristics for the deterministic (D-ICEP) and planning (S-ICEP) version of the Isolated Community Evacuation Problem (ICEP)
 
 The D-ICEP represents the base version of the ICEP with deterministic data. Due to the high complexity of the problem, large instances are difficult to solve. The structural heuristics (phase 1 and phase 2) allow for quicker solution times in comparison to commercial solvers (see the repository on https://github.com/singfie/ICEP-exact-implementation for an exact implementation with a commercial solver).
