@@ -10,32 +10,32 @@ Krutein, K. F. & Goochild, A. The Isolated Community Evacuation Problem with Mix
 
 # File descriptions
 
-# dock.py
+## dock.py
 This file implements an instance of an evacuation dock (evacuation pick-up and drop-off points)
 
-# location.py
+## location.py
 This file implements an instance of a location
 
-# evacLocation.py
+## evacLocation.py
 This file implements an instance of an evacuation location, and forms a sub-class of "location.py"
 
-# evacRes.py
+## evacRes.py
 This file implements an evacuation resource. 
 
-# generate_outputs.py
+## generate_outputs.py
 This file prints outputs from the best solution of the MP-BRKGA, in the form of a route plan. 
 
-# heuristic_phase1.py
+## heuristic_phase1.py
 This file implements phase 1 of the structure-based heuristic for the D-ICEP used in the paper mentioned above. 
 
-# heuristic_phase2.py
+## heuristic_phase2.py
 This file implements phase 2 of the structure-based heuristic for the D-ICEP used in the paper mentioned above.
 
-# greedy_deterministic_search.py
+## greedy_deterministic_search.py
 This file implements the greedy wrapper around heuristic phase 1 and phase 2, that represents the entire heuristic for the D-ICEP.
 
-# greedy_stochastic_search.py
+## greedy_stochastic_search.py
 This file represents a stochastic search method for the S-ICEP that aims to test all possible resource combinations
 
-# greedy_simple_stochastic_search.py
+## greedy_simple_stochastic_search.py
 This file represents a stochastic search method for the S-ICEP that simplifies "greedy_stochastic_search.py" and always updates the solution as soon as an improvement can be found, before looking for a better solution.
